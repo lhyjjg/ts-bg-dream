@@ -1,0 +1,13 @@
+.top_area {
+  position: sticky;
+  background-color: #ffffff;
+  height: 56px;
+  padding: 0px 20px;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.history_back {
+  z-index: 2;
+}
