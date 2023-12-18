@@ -19,8 +19,10 @@
   margin-bottom: 20px;
   font-size: 1.875rem;
   line-height: 36px;
+  font-weight: bold;
 }
 
 .main_txt > h3 {
   font-size: 0.9375rem;
+  font-weight: bold;
 }
