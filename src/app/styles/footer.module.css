@@ -1,0 +1,38 @@
+.greeting {
+  display: flex;
+  justify-content: center;
+}
+
+.greetingContainer {
+  display: flex;
+  justify-content: center;
+  width: 315px;
+  height: 60px;
+  margin: 70px auto 100px;
+}
+
+.greetingContainer > div {
+  margin: 0 7px;
+}
+
+.clipboardIcon {
+  background-image: url("/assets/icons/icon_clipboard.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #222222;
+  width: 60px;
+  height: 60px;
+  background-size: 20px;
+  border-radius: 50%;
+}
+
+.kakaoIcon {
+  background-image: url("/assets/icons/icon_kakao.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffe501;
+  width: 60px;
+  height: 60px;
+  background-size: 25px;
+  border-radius: 50%;
+}
