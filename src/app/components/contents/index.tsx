@@ -25,7 +25,12 @@ export default function Content({ dataList, title }: ContentProps) {
   return (
     <div className={styles.group}>
       <h3 className={styles.title}>{title}</h3>
-      <Swiper className={styles.swiper_container} loop={true} slidesPerView={6}>
+      <Swiper
+        className={styles.swiper_container}
+        loop
+        slidesPerView={"auto"}
+        centeredSlides={true}
+      >
         {dataList?.map((item, index) => (
           <SwiperSlide key={index} className={styles.swiper_slide}>
             <img src={item.img} alt={item.explanation} />
