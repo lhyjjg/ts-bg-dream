@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="25px" viewBox="0 0 26 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.1 (78136) - https://sketchapp.com -->
+    <title>icon / share</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2.5,13.5208333 C2.5,16.8756944 4.66319444,19.8354167 7.95972222,21.5944444 L7.95972222,21.5944444 L6.57291667,26.7201389 C6.45069444,27.1736111 6.96319444,27.5354167 7.35625,27.2722222 L7.35625,27.2722222 L13.4347222,23.2118056 C13.9479167,23.2625 14.46875,23.2916667 15,23.2916667 L15,23.2916667 C21.9027778,23.2916667 27.5,18.9173611 27.5,13.5208333 L27.5,13.5208333 C27.5,8.12430556 21.9027778,3.75 15,3.75 L15,3.75 C8.09583333,3.75 2.5,8.12430556 2.5,13.5208333 L2.5,13.5208333 Z" id="path-1"></path>
+    </defs>
+    <g id="여행능력시험" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="15개-정답" transform="translate(-175.000000, -1488.000000)">
+            <g id="Group-Copy" transform="translate(30.000000, 1345.000000)">
+                <g id="Group-2" transform="translate(45.000000, 124.000000)">
+                    <g id="share_kakao" transform="translate(82.000000, 0.000000)">
+                        <g id="GNB-/-kakao" transform="translate(16.000000, 16.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Clip-32" fill="#222222" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
