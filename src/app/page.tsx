@@ -6,6 +6,8 @@ import Content from "./components/contents/index";
 import { group1, group2, group3 } from "@/public/assets/contents/group.js";
 import Feedback from "./components/feedback";
 import Modal from "./components/feedback/modal";
+import Greeting from "./components/greeting";
+import Footer from "./components/footer";
 
 export default function Home() {
   // console.log(group1[0].img);
@@ -17,6 +19,8 @@ export default function Home() {
       <Content dataList={group2} title="🏖 까맣게 태워도 좋아" />
       <Content dataList={group3} title="💼 나는야 차가운 도시의 여행자" />
       <Feedback />
+      <Greeting />
+      <Footer />
       <div>뿌엥</div>
     </main>
   );
