@@ -8,6 +8,7 @@ export default function Home() {
     <main>
       <Header />
       <Visual />
+      <div>뿌엥</div>
     </main>
   );
 }
