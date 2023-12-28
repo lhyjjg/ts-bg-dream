@@ -21,6 +21,7 @@ export default function Home() {
       <Feedback />
       <Greeting />
       <Footer />
+      <div>뿌엥</div>
     </main>
   );
 }
