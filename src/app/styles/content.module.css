@@ -1,0 +1,28 @@
+.group {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.375rem;
+}
+
+.swiper_container {
+  height: 613px;
+  padding: 30px 0;
+}
+
+.swiper_slide > img {
+  width: 252px;
+  border-radius: 10px;
+  margin: 0px 10px;
+}
+
+.explanation {
+  text-align: center;
+  font-weight: bold;
+  color: #cccccc;
+  margin: 20px 0px;
+  font-size: 0.875rem;
+}
