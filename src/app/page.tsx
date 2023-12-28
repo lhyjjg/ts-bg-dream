@@ -14,6 +14,7 @@ export default function Home() {
       <Content dataList={group1} title="👒 따뜻한 봄볕이 그리울 때" />
       <Content dataList={group2} title="🏖 까맣게 태워도 좋아" />
       <Content dataList={group3} title="💼 나는야 차가운 도시의 여행자" />
+      <div>뿌엥</div>
     </main>
   );
 }
