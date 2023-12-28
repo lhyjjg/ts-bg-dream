@@ -1,0 +1,52 @@
+.modalContainer {
+  z-index: 222;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modalContent {
+  max-width: 255px;
+  height: 200px;
+  position: relative;
+  padding: 40px 30px 30px;
+  background: #ffffff;
+  border-radius: 10px;
+  color: #222;
+  margin: auto;
+}
+
+.modalContent > h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.modalContent > div > p {
+  margin-top: 20px;
+  font-size: 0.9375rem;
+  line-height: 21px;
+}
+
+.modalFooter {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.modalFooter > a {
+  font-size: 0.9375rem;
+  font-weight: bold;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.modalFooter a:nth-child(2) {
+  color: #ff3c46;
+}
