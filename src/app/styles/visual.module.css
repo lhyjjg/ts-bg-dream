@@ -1,0 +1,28 @@
+.visual {
+  height: 550px;
+  width: 100%;
+  background-image: url("https://d2dkwlh83yhz1k.cloudfront.net/images/event/2020/04/14/visual.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.main_txt {
+  position: absolute;
+  top: 140px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.main_txt > h2 {
+  margin-bottom: 20px;
+  font-size: 1.875rem;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.main_txt > h3 {
+  font-size: 0.9375rem;
+  font-weight: bold;
+}
