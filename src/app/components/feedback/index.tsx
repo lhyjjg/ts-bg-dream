@@ -55,7 +55,7 @@ export default function Feedback() {
               </li>
             </ul>
           ) : selectedOption === "nogood" ? (
-            <ul className={styles.after}>
+            <ul className={hideIcon ? styles.iconHide : styles.after}>
               <li>
                 <div className={styles.goodIcon}></div>
                 <div>별로에요</div>
