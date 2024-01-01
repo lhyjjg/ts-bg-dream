@@ -1,10 +1,10 @@
 import styles from "@/src/app/styles/modal.module.css";
 
 interface Props {
-  modalClose: any;
+  closeModal: any;
 }
 
-export default function Modal({ modalClose }: Props) {
+export default function Modal({ closeModal }: Props) {
   return (
     <div className={styles.modalContainer}>
       <div className={styles.modalContent}>
@@ -17,8 +17,8 @@ export default function Modal({ modalClose }: Props) {
           <p>3분이면 돼요, 좀 더 자세한 의견을 들려주실 수 있을까요?</p>
         </div>
         <div className={styles.modalFooter}>
-          <a onClick={() => modalClose(false)}>좋아요</a>
-          <a onClick={() => modalClose(false)}>다음에요</a>
+          <a onClick={() => closeModal(false)}>좋아요</a>
+          <a onClick={() => closeModal(false)}>다음에요</a>
         </div>
       </div>
     </div>

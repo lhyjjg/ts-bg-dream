@@ -3,10 +3,14 @@
   background-color: #181818;
   text-align: center;
   padding: 50px 0px;
+  position: relative;
 }
 
 .feedbackContainer > h4 {
   font-weight: bold;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
 }
 
 .feedbackContainer > ul {
@@ -14,6 +18,23 @@
   justify-content: space-between;
   width: 154px;
   margin: 30px auto 0;
+}
+
+.after {
+  display: flex;
+  justify-content: center !important;
+}
+
+.feedbackContainer > .hide {
+  visibility: visible;
+  opacity: 1;
+}
+
+.feedbackContainer > .thanks {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -85px;
 }
 
 .feedbackContainer > ul > li > div {
@@ -45,4 +66,12 @@
   background-size: 26px;
   border-radius: 50%;
   margin-bottom: 10px;
+}
+
+.iconHide {
+  visibility: hidden;
+}
+
+.feedbackContainerHide {
+  display: none;
 }
