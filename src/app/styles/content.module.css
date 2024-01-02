@@ -8,16 +8,16 @@
   font-size: 1.375rem;
 }
 
-.swiper_container {
+.swiperContainer {
   height: 613px;
   padding: 30px 0;
 }
 
-.swiper_container :global(.swiper-wrapper) {
+.swiperContainer :global(.swiper-wrapper) {
   width: 13056px !important;
 }
 
-.swiper_container :global(.swiper-slide) {
+.swiperContainer :global(.swiper-slide) {
   box-sizing: border-box;
   width: 252px;
   margin: 0px 10px;
@@ -25,21 +25,21 @@
   transition: 0.7s;
 }
 
-.swiper_container :global(.swiper-slide) > img {
+.swiperContainer :global(.swiper-slide) > img {
   border-radius: 10px;
   max-width: 100%;
   max-height: 100%;
 }
 
-.swiper_container :global(.swiper-slide-active) {
+.swiperContainer :global(.swiper-slide-active) {
   padding: 0px;
 }
 
-.swiper_container :global(.swiper-slide) > div {
+.swiperContainer :global(.swiper-slide) > div {
   visibility: hidden;
 }
 
-.swiper_container :global(.swiper-slide-active) > div {
+.swiperContainer :global(.swiper-slide-active) > div {
   padding: 0px;
   visibility: visible;
 }

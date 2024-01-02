@@ -10,11 +10,11 @@ export default function Header() {
 
   return (
     <>
-      <header className={styles.top_area}>
+      <header className={styles.topArea}>
         <Link
           href="/"
           onClick={() => router.back()}
-          className={styles.history_back}
+          className={styles.historyBack}
         >
           <HistoryBackIcon color={"black"} width={"24px"} height={"24px"} />
         </Link>
