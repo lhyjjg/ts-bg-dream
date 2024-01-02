@@ -11,13 +11,9 @@ export default function Header() {
   return (
     <>
       <header className={styles.topArea}>
-        <Link
-          href="/"
-          onClick={() => router.back()}
-          className={styles.historyBack}
-        >
+        <button onClick={router.back} className={styles.historyBack}>
           <HistoryBackIcon color={"black"} width={"24px"} height={"24px"} />
-        </Link>
+        </button>
       </header>
     </>
   );
