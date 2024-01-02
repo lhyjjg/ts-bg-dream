@@ -1,8 +1,7 @@
 "use clinet";
 
 import { useRouter } from "next/navigation";
-import styles from "@/src/app/styles/header.module.css";
-import Link from "next/link";
+import styles from "./header.module.css";
 import HistoryBackIcon from "@/public/assets/icons/ico_history_back.svg";
 
 export default function Header() {

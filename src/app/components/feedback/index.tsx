@@ -1,4 +1,4 @@
-import styles from "@/src/app/styles/feedback.module.css";
+import styles from "./feedback.module.css";
 import Modal from "./modal";
 import { useState, useEffect } from "react";
 

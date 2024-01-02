@@ -6,7 +6,7 @@ import SwiperCore from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import styles from "@/src/app/styles/content.module.css";
+import styles from "./content.module.css";
 
 interface GroupType {
   img: string;

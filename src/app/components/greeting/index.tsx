@@ -1,4 +1,4 @@
-import styles from "@/src/app/styles/greeting.module.css";
+import styles from "./greeting.module.css";
 
 export default function Greeting() {
   return (
