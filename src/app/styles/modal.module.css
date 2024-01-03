@@ -23,12 +23,14 @@
 }
 
 .modalContent > h3 {
+  text-align: left;
   font-size: 1.17em;
   font-weight: bold;
   line-height: 1.4;
 }
 
 .modalContent > div > p {
+  text-align: left;
   margin-top: 20px;
   font-size: 0.9375rem;
   line-height: 21px;
