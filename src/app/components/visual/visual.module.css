@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.main_txt {
+.mainTxt {
   position: absolute;
   top: 140px;
   width: 100%;
@@ -15,14 +15,14 @@
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
 }
 
-.main_txt > h2 {
+.mainTxt > h2 {
   margin-bottom: 20px;
   font-size: 1.875rem;
   line-height: 36px;
   font-weight: bold;
 }
 
-.main_txt > h3 {
+.mainTxt > h3 {
   font-size: 0.9375rem;
   font-weight: bold;
 }

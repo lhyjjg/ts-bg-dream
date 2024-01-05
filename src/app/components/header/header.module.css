@@ -1,4 +1,4 @@
-.top_area {
+.topArea {
   position: sticky;
   background-color: #ffffff;
   height: 56px;
@@ -9,6 +9,9 @@
   z-index: 10;
 }
 
-.history_back {
+.historyBack {
   z-index: 2;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }

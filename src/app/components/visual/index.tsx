@@ -1,10 +1,10 @@
-import styles from "@/src/app/styles/visual.module.css";
+import styles from "./visual.module.css";
 
 export default function Visual() {
   return (
     <>
       <section className={styles.visual}>
-        <div className={styles.main_txt}>
+        <div className={styles.mainTxt}>
           <h2>
             핸드폰으로
             <br />
