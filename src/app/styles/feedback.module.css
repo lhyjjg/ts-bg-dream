@@ -23,6 +23,7 @@
 .after {
   display: flex;
   justify-content: center !important;
+  /* opacity: 0; */
 }
 
 .feedbackContainer > .hide {
@@ -68,10 +69,6 @@
   margin-bottom: 10px;
 }
 
-.iconHide {
-  visibility: hidden;
-}
-
-.feedbackContainerHide {
-  display: none;
+.hideIcon {
+  opacity: 0;
 }

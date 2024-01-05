@@ -8,17 +8,6 @@ export default function Feedback() {
   const [hideIcon, setHideIcon] = useState(false);
   const [hideSection, setHideSection] = useState(false);
 
-  const openModal = (option: string) => {
-    setSelectedOption(option);
-    setModalOpen(true);
-    setHideIcon(false);
-  };
-
-  const closeModal = () => {
-    setModalOpen(false);
-    setHideIcon(true);
-  };
-
   useEffect(() => {
     const feedbackTimeout = setTimeout(() => {
       if (hideIcon) {
@@ -39,43 +28,53 @@ export default function Feedback() {
     };
   }, [hideIcon]);
 
+  if (hideSection) return null;
+
+  const isGoodSelected = selectedOption === "good";
+  const isNoGoodSelected = selectedOption === "nogood";
+
+  const renderFeedbackOption = (option: string, text: string) => (
+    <li
+      onClick={() => openModal(option)}
+      className={hideIcon ? styles.hideIcon : ""}
+    >
+      <div className={styles[`${option}Icon`]}></div>
+      <div>{text}</div>
+    </li>
+  );
+
+  const openModal = (option: string) => {
+    setSelectedOption(option);
+    setModalOpen(true);
+    setHideIcon(false);
+  };
+
+  const closeModal = () => {
+    setModalOpen(false);
+    setHideIcon(true);
+  };
+
   return (
-    <>
-      {!hideSection && (
-        <section className={styles.feedbackContainer}>
-          <h4 className={hideIcon ? "" : styles.hide}>이 콘텐츠는 어때요?</h4>
-          <h4 className={hideIcon ? `${styles.hide} ${styles.thanks}` : ""}>
-            소중한 의견 감사합니다 💛
-          </h4>
-          {selectedOption === "good" ? (
-            <ul className={hideIcon ? styles.iconHide : styles.after}>
-              <li>
-                <div className={styles.goodIcon}></div>
-                <div>좋았어요</div>
-              </li>
-            </ul>
-          ) : selectedOption === "nogood" ? (
-            <ul className={hideIcon ? styles.iconHide : styles.after}>
-              <li>
-                <div className={styles.goodIcon}></div>
-                <div>별로에요</div>
-              </li>
-            </ul>
-          ) : (
-            <ul>
-              <li onClick={() => openModal("good")}>
-                <div className={styles.goodIcon}></div>
-                <div>좋았어요</div>
-              </li>
-              <li onClick={() => openModal("nogood")}>
-                <div className={styles.badIcon}></div>
-                <div>별로에요</div>
-              </li>
-            </ul>
-          )}
-          {modalOpen && <Modal closeModal={closeModal} />}
-        </section>
-      )}
-    </>
+    <section className={styles.feedbackContainer}>
+      <h4 className={hideIcon ? "" : styles.hide}>이 콘텐츠는 어때요?</h4>
+      <h4 className={hideIcon ? `${styles.hide} ${styles.thanks}` : ""}>
+        소중한 의견 감사합니다 💛
+      </h4>
+      <ul
+        className={
+          hideIcon || isGoodSelected || isNoGoodSelected ? styles.after : ""
+        }
+      >
+        {isGoodSelected && renderFeedbackOption("good", "좋았어요")}
+        {isNoGoodSelected && renderFeedbackOption("bad", "별로에요")}
+        {!isGoodSelected && !isNoGoodSelected && (
+          <>
+            {renderFeedbackOption("good", "좋았어요")}
+            {renderFeedbackOption("bad", "별로에요")}
+          </>
+        )}
+      </ul>
+      {modalOpen && <Modal closeModal={closeModal} />}
+    </section>
   );
 }
