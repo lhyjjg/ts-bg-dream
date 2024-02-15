@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Scrollbar } from "swiper/modules";
 import SwiperCore from "swiper";
@@ -20,7 +20,6 @@ interface ContentProps {
 
 export default function Content({ dataList, title }: ContentProps) {
   SwiperCore.use([Scrollbar]);
-  const swiperRef = useRef<SwiperCore>();
 
   return (
     <div className={styles.group}>

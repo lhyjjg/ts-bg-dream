@@ -5,12 +5,10 @@ import Visual from "./components/visual";
 import Content from "./components/contents/index";
 import { group1, group2, group3 } from "@/public/assets/contents/group.js";
 import Feedback from "./components/feedback";
-import Modal from "./components/feedback/modal";
 import Greeting from "./components/greeting";
 import Footer from "./components/footer";
 
 export default function Home() {
-  // console.log(group1[0].img);
   return (
     <main>
       <Header />

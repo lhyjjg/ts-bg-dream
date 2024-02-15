@@ -2,7 +2,9 @@ import styles from "./footer.module.css";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
 export default function Footer() {
-  const currentURL = window.location.href;
+  // window is not defined 에러 조건 추가
+  const currentURL = typeof window !== 'undefined' ? window.location.href : "";
+  
   const handleCopyClipBoard = async () => {
     try {
       alert("복사되었습니다.");
