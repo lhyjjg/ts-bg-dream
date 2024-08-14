@@ -14,15 +14,20 @@
 - Swiper
 
 ## 구현 결과
-Swiper를 사용한 여행지 이미지 영역
+- Swiper를 사용한 여행지 이미지 영역
 <div align="left">
-  <img width="60%" src="https://file.notion.so/f/f/37dfb079-d9dc-4201-8e46-92bad20bd039/d0db0729-daf0-47f3-903f-e4e0b3dc4484/d9abc825-d61b-4c4a-a6e5-3806599b817f-ezgif.com-video-to-gif-converter.gif?table=block&id=989cc6cf-03c0-4a1d-b0d8-1714338ef235&spaceId=37dfb079-d9dc-4201-8e46-92bad20bd039&expirationTimestamp=1723262400000&signature=oi-Z4EtTX2z3LQC7HuD729CJr76AzTnCzDCXKQaOdok" alt="ts-bg-dream">
+  <img width="60%" src="https://github.com/user-attachments/assets/8d0c43bf-7497-4378-b5af-7771bc296867" alt="ts-bg-dream">
 </div>
-사용자 피드백
+</br>
+
+- 사용자 피드백
 <div align="left">
-  <img width="60%" src="https://file.notion.so/f/f/37dfb079-d9dc-4201-8e46-92bad20bd039/1e13dfc9-2ecd-4d2b-b9f1-65c16cac384d/feedback.gif?table=block&id=efd0f302-2812-45fd-96b4-42af7ecccf01&spaceId=37dfb079-d9dc-4201-8e46-92bad20bd039&expirationTimestamp=1723262400000&signature=1TgyOkXhfn2DaBLQJiB9lpIlZfhp2T2IzUmoOwlbCO4" alt="ts-bg-dream">
+  <img width="60%" src="https://github.com/user-attachments/assets/d25e9549-68bf-4ebd-b971-97280489432a" alt="ts-bg-dream">
 </div>
-현재 페이지 복사
+</br>
+
+-  페이지 복사
 <div align="left">
-  <img width="60%" src="https://file.notion.so/f/f/37dfb079-d9dc-4201-8e46-92bad20bd039/b42eb905-74e2-4ba3-ae7d-17c87ded8ebb/footer.gif?table=block&id=db4667b3-0f54-44e0-84ca-5830fafea50e&spaceId=37dfb079-d9dc-4201-8e46-92bad20bd039&expirationTimestamp=1723262400000&signature=C75nHGTHb84jau1MRhuoNKNcUlNUP32jqEI7eZjnRfU" alt="ts-bg-dream">
+  <img width="60%" src="https://github.com/user-attachments/assets/42054f4e-8bc0-43a1-bbd3-7bb87a8a5147" alt="ts-bg-dream">
 </div>
+
